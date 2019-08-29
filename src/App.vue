@@ -70,7 +70,7 @@ export default Vue.extend({
     toggleTask(item: task): void {
       item.complete = !item.complete;
     },
-    setVisibility(status: String): void {
+    setVisibility(status: string): void {
       this.visibility = status;
     }
   }
